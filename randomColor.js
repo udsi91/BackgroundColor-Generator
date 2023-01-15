@@ -15,3 +15,7 @@ function randomColor() {
 //Butona tıklama olayını dinle
 let button = document.getElementById("myButton");
 button.addEventListener("click", randomColor);
+
+myButton.addEventListener("keydown", (event) => {
+  button.click();
+});

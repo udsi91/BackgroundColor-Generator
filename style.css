@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.myButton {
+  width: 350px;
+  height: 80px;
+  padding: 1rem;
+  border-radius: 5px 15px 5px 15px;
+  border-style: none;
+  background-image: linear-gradient(90deg, #175fba, #c22d37);
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  cursor: pointer;
+}
